@@ -1,0 +1,127 @@
+CRITICAL - 2021-12-02 08:56:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 08:56:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 08:59:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:06:02 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:07:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:07:02 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:07:10 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:07:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:07:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:07:24 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 18:08:56 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 11:29:04 --> syntax error, unexpected token "public", expecting ";"
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 11:49:36 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 11:52:12 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 11:54:37 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 12:16:01 --> Invalid file: home.php
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\app\Controllers\Home.php(9): view('home')
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 19:13:47 --> syntax error, unexpected token "-", expecting "("
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('recruit/job-det...')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('recruit/job-det...')
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 19:14:49 --> Invalid file: job-details.php
+#0 C:\xampp\htdocs\Cerenity-Studio-Web\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('job-details.php')
+#1 C:\xampp\htdocs\Cerenity-Studio-Web\system\Common.php(1097): CodeIgniter\View\View->render('job-details', Array, true)
+#2 C:\xampp\htdocs\Cerenity-Studio-Web\app\Controllers\Recruit.php(9): view('job-details')
+#3 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(824): App\Controllers\Recruit->jobdetails()
+#4 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recruit))
+#5 C:\xampp\htdocs\Cerenity-Studio-Web\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Cerenity-Studio-Web\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
