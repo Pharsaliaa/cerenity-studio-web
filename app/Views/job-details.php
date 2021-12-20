@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
 
-    <title>Hello, world!</title>
+    <title>Job Details</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -59,19 +59,39 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4">
-          <i class="fas fa-crop-alt h1"></i>
-          <h3>Game Designer</h3>
-          Designers oversee the overall creation of the creative elements, including the environment, sound effects, score, creation of characters and objects, and various levels.
+          <i class="fas fa-phone-alt h1"></i>
+          <h3>Operating & Support</h3>
+          Customer Service Operator, Game Master, Operation Planner, Event Planner.
         </div>
         <div class="col-md-4">
           <i class="fas fa-palette h1"></i>
-          <h3>Game Artist</h3>
-          Artists work on refining the artwork of the visual elements, and begin 3D animation and rendering.
+          <h3>Art & Design</h3>
+          Artwork Designer, 2D Artist, 3D Artist, Animation Maker, Effect Maker, Web Designer, UI/UX Designer.
         </div>
         <div class="col-md-4">
           <i class="fas fa-laptop-code h1"></i>
-          <h3>Game Programmer</h3>
-          Programmers work on source coding the back end.
+          <h3>Programmer</h3>
+          Server Programmer, Client Programmer, Mobile Application Developer, Platform Programmer, Web Publisher, Database Engineer, System Engineer.
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <i class="fas fa-briefcase h1"></i>
+          <h3>Business Planning</h3>
+          Business Planner, Game Planner, Service Planner, Data Analyst, Proposal Businessman.
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-chart-line h1"></i>
+          <h3>Marketing</h3>
+          Marketer, Advertise Maker, Proposal Salesman, Event Planner.
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-cogs h1"></i>
+          <h3>Administration</h3>
+          HR Staff, Accounting Staff, Legal Staff, Administrator.
         </div>
       </div>
     </div>

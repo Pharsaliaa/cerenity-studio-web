@@ -2,10 +2,6 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-
-
-
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet1  111111  " type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
 
-    <title>Hello, world!</title>
+    <title>Home</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
