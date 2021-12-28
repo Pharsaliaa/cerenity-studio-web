@@ -54,8 +54,7 @@
     </nav>
 
     <h3 class="mt-5 text-center">JOB DETAILS</h3>
-    <hr>
-
+    <br>
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4">
