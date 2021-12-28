@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet1  111111  " type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
 
     <title>Home</title>
   </head>
@@ -28,7 +28,6 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Intro</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Introduction</a></li>
-                  <li><a class="dropdown-item" href="#">History</a></li>
                   <li><a class="dropdown-item" href="#">News</a></li>
                 </ul>
               </li>
@@ -102,7 +101,7 @@
         <div class="container text-justify p-5">
           <div class="row">
             <div class="col-md-6">
-              We are a company and organization that focuses on cinematography and online game development
+              We are a studio that focuses on cinematography and online game development
             </div>
             <div class="col-md-6">
               We provide a large selection of online games for your company or startup to publish

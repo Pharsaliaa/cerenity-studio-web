@@ -28,7 +28,6 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Intro</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Introduction</a></li>
-                  <li><a class="dropdown-item" href="#">History</a></li>
                   <li><a class="dropdown-item" href="#">News</a></li>
                 </ul>
               </li>
