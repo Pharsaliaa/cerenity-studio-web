@@ -44,8 +44,8 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recruit</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="<?php echo site_url('JobDetails')?>">Job Details</a></li>
-                <li><a class="dropdown-item" href="#">Job Vacancy</a></li>
                 <li><a class="dropdown-item" href="#">My Application</a></li>
+                <li><a class="dropdown-item" href="#">Application List</a></li>
               </ul>
             </li>
           </ul>
