@@ -49,9 +49,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="<?php echo site_url('SubmitProposal')?>">Submit
+                            <li><a class="dropdown-item" href="<?= base_url('/submit-proposal') ?>">Submit
                                     Proposal</a></li>
-                            <li><a class="dropdown-item" href="<?php echo site_url('ProposalList')?>">Proposal List</a>
+                            <li><a class="dropdown-item" href="<?= base_url('/proposal-list') ?>">Proposal List</a>
                             </li>
                         </ul>
                     </li>
@@ -60,10 +60,60 @@
         </div>
     </nav>
 
-    <h3 class="mt-5 text-center">SUBMIT A PROPOSAL</h3>
+    <h1 class="mt-5 text-center">SUBMIT A PROPOSAL</h1>
     <!-- PROPOSAL FORM GOES HERE! -->
-    <!--                          -->
-    <!--                          -->
+    <div class="container">
+
+        <?php if(session()->has('success')): ?>
+        <p class="text-success"><?= session()->getFlashdata('success') ?></p>
+        <?php endif; ?>
+
+        <?php if(session()->has('error')): ?>
+        <p class="text-danger"><?= session()->getFlashdata('error') ?></p>
+        <?php endif; ?>
+
+        <?php $validation = session()->getFlashdata('validation'); ?>
+
+        <form action="<?= base_url('/submit-proposal') ?>" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="company_name" class="form-label">Company Name</label>
+                <input type="text" class="form-control" id="company_name" name="company_name" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="game_license" class="form-label">Game License</label>
+                <select class="form-select" name="game_license" id="game_license" required>
+                    <!--<option selected>Select Game</option>-->
+                    <option value="">Select a Game</option>
+                    <option value="Lost Saga">Lost Saga</option>
+                    <option value="Infect Clean">Infect Clean</option>
+                    <option value="Golden Adventure">Golden Adventure</option>
+                    <option value="Flyff Online">Flyff Online</option>
+                    <option value="Archisect Online">Archisect Online</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" name="description" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="pt-2" for="file_name">Proposal (.pdf & max size 2MB)</label>
+                <div class="custom-file">
+                    <input type="file" required
+                        class="form-control custom-file-input <?= $validation && isset($validation['file_name']) ? 'is-invalid' : '' ?>"
+                        name="file_name" id="file_name">
+                    <?php if ($validation && isset($validation['file_name'])): ?>
+                    <div class="invalid-feedback"><?= $validation['file_name'] ?></div>
+                    <?php endif; ?>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end pt-2 pb-2">
+                <input type="submit" class="btn btn-primary waves-effect waves-light" value="Submit">
+            </div>
+        </form>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

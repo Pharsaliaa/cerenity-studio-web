@@ -32,6 +32,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/submit-proposal', 'SubmitProposal::index');
+$routes->add('/submit-proposal', 'SubmitProposal::insertData');
+$routes->add('/proposal-list', 'SubmitProposal::proposalList');
+$routes->get('/edit-request/(:num)', 'SubmitProposal::editRequest/$1');
+$routes->get('/delete-request/(:num)', 'SubmitProposal::deleteRequest/$1');
 
 /*
  * --------------------------------------------------------------------

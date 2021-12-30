@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
 
-    <title>Home</title>
+    <title>Job Details</title>
 </head>
 
 <body>
@@ -51,8 +51,8 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="<?= base_url('/submit-proposal') ?>">Submit
                                     Proposal</a></li>
-                            <li><a class="dropdown-item" href="<?= base_url('/proposal-list') ?>">Proposal
-                                    List</a></li>
+                            <li><a class="dropdown-item" href="<?= base_url('/proposal-list') ?>">Proposal List</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -60,70 +60,43 @@
         </div>
     </nav>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <video class="img-fluid" autoplay loop muted>
-                    <source src="<?php echo base_url('video/1.mp4')?>" type="video/mp4">
-                </video>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>INFECT CLEAN</h5>
-                    <p>2D Covid Educational Game</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <video class="img-fluid" autoplay loop muted>
-                    <source src="<?php echo base_url('video/2.mp4')?>" type="video/mp4">
-                </video>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>LOST SAGA</h5>
-                    <p>3D Fighting Casual MMO</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <video class="img-fluid" autoplay loop muted>
-                    <source src="<?php echo base_url('video/3.mp4')?>" type="video/mp4">
-                </video>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>FLYFF ONLINE</h5>
-                    <p>Fly For Fun</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    <h3 class="mt-5 text-center">EDIT DATA REQUEST</h3>
+    <!-- PROPOSAL FORM GOES HERE! -->
+    <div class="container">
 
-    <h3 class="mt-5 text-center">ABOUT US</h3>
-    <hr>
-
-    <div class="bg-light">
-        <div class="container text-justify p-5">
-            <div class="row">
-                <div class="col-md-6">
-                    We are a studio that focuses on cinematography and online game development
-                </div>
-                <div class="col-md-6">
-                    We provide a large selection of online games for your company or startup to publish
-                </div>
+        <form action="<?= base_url('/SubmitProposal/updateRequest/'.$proposal['proposal_id']) ?>" method="post"
+            enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="company_name" class="form-label">Company Name</label>
+                <input type="text" class="form-control" id="company_name" name="company_name"
+                    value="<?= $proposal['company_name'] ?>" disabled>
             </div>
-        </div>
+
+            <div class="mb-3">
+                <label for="game_license" class="form-label">Game License</label>
+                <select class="form-select" name="game_license" id="game_license" disabled>
+                    <option selected><?= $proposal['game_license'] ?></option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="description" name="description"
+                    disabled><?= $proposal['description'] ?></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="pt-2" for="file_name">Change Status</label>
+                <select class="form-select" aria-label="Default select example" name="status" id="status">
+                    <option selected disabled><?= $proposal['status'] ?></option>
+                    <option value="Accept">Accept</option>
+                    <option value="Decline">Decline</option>
+                </select>
+            </div>
+            <div class="d-flex justify-content-end pt-2 pb-2">
+                <input type="submit" class="btn btn-primary waves-effect waves-light" value="Update">
+            </div>
+        </form>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -133,10 +106,11 @@
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  -->
 </body>
+
 <footer class="text-center text-white" style="background-color: #f1f1f1;">
     <!-- Grid container -->
     <div class="container pt-4">

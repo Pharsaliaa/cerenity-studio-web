@@ -10,7 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
     <title>Job Details</title>
 </head>
@@ -49,9 +50,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="<?php echo site_url('SubmitProposal')?>">Submit
+                            <li><a class="dropdown-item" href="<?= base_url('/submit-proposal') ?>">Submit
                                     Proposal</a></li>
-                            <li><a class="dropdown-item" href="<?php echo site_url('ProposalList')?>">Proposal List</a>
+                            <li><a class="dropdown-item" href="<?= base_url('/proposal-list') ?>">Proposal List</a>
                             </li>
                         </ul>
                     </li>
@@ -60,10 +61,40 @@
         </div>
     </nav>
 
-    <h3 class="mt-5 text-center">PROPOSAL LIST</h3>
+    <h1 class="mt-5 text-center">PROPOSAL LIST</h1>
     <!-- PROPOSAL TABLE LIST GOES HERE! -->
-    <!--                          -->
-    <!--                          -->
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Company Name</th>
+                    <th scope="col">Game License</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Proposal</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php $no=1; foreach ($proposal as $data => $value) { ?>
+                <tr>
+                    <th scope="row"><?= $no++; ?></th>
+                    <td><?= $value['company_name'] ?></td>
+                    <td><?= $value['game_license'] ?></td>
+                    <td><?= $value['description'] ?></td>
+                    <td><a href="<?= base_url('document/'.$value['file_name']) ?>">Download</a></td>
+                    <td><?= $value['status'] ?></td>
+                    <td><a href="<?= base_url('edit-request/'.$value['proposal_id']) ?>" class="text-primary"><i
+                                class="fa fa-pencil" aria-hidden="true"></i></a>
+                        <a href="<?= base_url('delete-request/'.$value['proposal_id']) ?>" class="text-danger"><i
+                                class="fa fa-trash" aria-hidden="true"></i></a>
+                    </td>
+                </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
