@@ -9,8 +9,17 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Home</title>
 </head>
@@ -137,44 +146,79 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
 </body>
+<!--
 <footer class="text-center text-white" style="background-color: #f1f1f1;">
-    <!-- Grid container -->
     <div class="container pt-4">
-        <!-- Section: Social media -->
         <section class="mb-4">
-            <!-- Facebook -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                 data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
 
-            <!-- Twitter -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                 data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
 
-            <!-- Google -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                 data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
 
-            <!-- Instagram -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                 data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
 
-            <!-- Linkedin -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                 data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
-            <!-- Github -->
             <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
                 data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
         </section>
-        <!-- Section: Social media -->
     </div>
-    <!-- Grid container -->
 
-    <!-- Copyright -->
     <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2020 Copyright:
         <a class="text-dark" href="https://sfcerenity.org/">Cerenity Studio</a>
     </div>
-    <!-- Copyright -->
 </footer>
+-->
+<footer class="footer-48201">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pr-md-5">
+                <a href="#" class="footer-site-logo d-block mb-4">Cerenity Studio</a>
+                <p>CEO Cerenity Studio Or., Soleil et Lune Or. : Naufal Fahim Murran | Address: Gedung Gandaria 8 Lt.20
+                    Unit B-C, Gandaria City Jl.Sultan Iskandar Muda Kebayoran Lama, Jakarta
+                    Selatan, Kota Jakarta Selatan, DKI Jakarta (12240)</p>
+                <p>Personal Information Manager: Naufal Fahim Murran | Phone: (+62) 8221-3389-568 | Fax: (021) 29303499
+                </p>
+                <p></p>
+            </div>
+            <div class="col-md">
+                <ul class="list-unstyled nav-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Partners</a></li>
+                </ul>
+            </div>
+            <div class="col-md text-md-center">
+                <ul class="social list-unstyled">
+                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                    <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                </ul>
+                <p class=""><a href="mailto:support@cs.sferenity.org" class="btn btn-tertiary">Contact Us</a></p>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-12 text-center">
+                <div class="copyright mt-5 pt-5">
+                    <p><small>&copy; 2019-2021 All Rights Reserved.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 </html>
