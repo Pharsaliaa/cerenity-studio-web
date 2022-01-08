@@ -5,14 +5,22 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job Details</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
 
-    <title>Job Details</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 
 <body>
@@ -136,13 +144,6 @@
                 </ul>
             </div>
             <div class="col-md text-md-center">
-                <ul class="social list-unstyled">
-                    <li><a href="#"><span class="icon-instagram"></span></a></li>
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                    <li><a href="#"><span class="icon-dribbble"></span></a></li>
-                </ul>
                 <p class=""><a href="mailto:support@cs.sferenity.org" class="btn btn-tertiary">Contact Us</a></p>
             </div>
         </div>

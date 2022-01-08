@@ -349,13 +349,6 @@
                 </ul>
             </div>
             <div class="col-md text-md-center">
-                <ul class="social list-unstyled">
-                    <li><a href="#"><span class="icon-instagram"></span></a></li>
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                    <li><a href="#"><span class="icon-dribbble"></span></a></li>
-                </ul>
                 <p class=""><a href="mailto:support@cs.sferenity.org" class="btn btn-tertiary">Contact Us</a></p>
             </div>
         </div>

@@ -5,14 +5,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job Details</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('fontawesome/css/all.min.css')?>">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
-    <title>Job Details</title>
+    <!-- Style CSS -->
+    <!--
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="css/styles.css" rel="stylesheet">
+    -->
 </head>
 
 <body>
@@ -103,46 +109,14 @@
         </div>
     </div>
 </body>
-<footer class="footer-48201">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 pr-md-5">
-                <a href="#" class="footer-site-logo d-block mb-4">Cerenity Studio</a>
-                <p>CEO Cerenity Studio Or., Soleil et Lune Or. : Naufal Fahim Murran | Address: Gedung Gandaria 8 Lt.20
-                    Unit B-C, Gandaria City Jl.Sultan Iskandar Muda Kebayoran Lama, Jakarta
-                    Selatan, Kota Jakarta Selatan, DKI Jakarta (12240)</p>
-                <p>Personal Information Manager: Naufal Fahim Murran | Phone: (+62) 8221-3389-568 | Fax: (021) 29303499
-                </p>
-                <p></p>
-            </div>
-            <div class="col-md">
-                <ul class="list-unstyled nav-links">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Partners</a></li>
-                </ul>
-            </div>
-            <div class="col-md text-md-center">
-                <ul class="social list-unstyled">
-                    <li><a href="#"><span class="icon-instagram"></span></a></li>
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                    <li><a href="#"><span class="icon-dribbble"></span></a></li>
-                </ul>
-                <p class=""><a href="mailto:support@cs.sferenity.org" class="btn btn-tertiary">Contact Us</a></p>
-            </div>
-        </div>
 
-        <div class="row ">
-            <div class="col-12 text-center">
-                <div class="copyright mt-5 pt-5">
-                    <p><small>&copy; 2019-2021 All Rights Reserved.</small></p>
-                </div>
-            </div>
-        </div>
+<!-- Footer -->
+<footer class="footer">
+    <div class="col-12 text-center copyright mt-5 pt-5">
+        <p><small>&copy; 2019-2021 All Rights Reserved.</small></p>
     </div>
 </footer>
+
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
