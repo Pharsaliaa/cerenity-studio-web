@@ -85,8 +85,6 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="<?= base_url('/submit-proposal') ?>">Submit
                                     Proposal</a></li>
-                            <li><a class="dropdown-item" href="<?= base_url('/proposal-list') ?>">Proposal
-                                    List</a></li>
                         </ul>
                     </li>
                 </ul>

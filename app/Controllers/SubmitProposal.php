@@ -21,9 +21,9 @@ class SubmitProposal extends BaseController{
         $data = [
             'title' => 'Proposal List',
             'proposal' => $this->jobModel->getData(),
-            'isi' => 'proposal-list',
+            'isi' => 'admin/proposal-list',
         ];
-        echo view('proposal-list',$data);
+        echo view('admin/proposal-list',$data);
     }
 
     public function insertData(){
@@ -72,9 +72,19 @@ class SubmitProposal extends BaseController{
         echo view('proposal-edit',$data);
     }
 
-    public function updateRequest($proposal_id){
+    public function acceptRequest($proposal_id){
+        $status = 'Approved';
         $data=[
-            'status' => $this->request->getPost('status'),
+            'status' => $status,
+        ];
+        $this->jobModel->updateData($data, $proposal_id);
+        return redirect()->to(base_url('/proposal-list'));
+    }
+
+    public function declineRequest($proposal_id){
+        $status = 'Declined';
+        $data=[
+            'status' => $status,
         ];
         $this->jobModel->updateData($data, $proposal_id);
         return redirect()->to(base_url('/proposal-list'));
