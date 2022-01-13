@@ -37,6 +37,13 @@ $routes->add('/submit-proposal', 'SubmitProposal::insertData');
 $routes->add('/proposal-list', 'SubmitProposal::proposalList');
 $routes->get('/edit-request/(:num)', 'SubmitProposal::editRequest/$1');
 $routes->get('/delete-request/(:num)', 'SubmitProposal::deleteRequest/$1');
+$routes->get('/dashboard', 'loginController::dashboard');
+$routes->get('/login', 'loginController::loginPage');
+$routes->add('/login', 'loginController::loginCheck');
+$routes->get('/register', 'loginController::registerPage');
+$routes->add('/register', 'loginController::regisAdmin');
+$routes->get('/accept-request/(:num)', 'SubmitProposal::acceptRequest/$1');
+$routes->get('/decline-request/(:num)', 'SubmitProposal::declineRequest/$1');
 
 /*
  * --------------------------------------------------------------------
